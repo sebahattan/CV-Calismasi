@@ -1,0 +1,948 @@
+
+<!doctype html>
+<html lang="tr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Farklı Aygıtlarda Sorun yaşaması için bu kodu ekliyoruz -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- Bootstrap CSS Dosyasını Ekliyoruz -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- font-awesome CSS Dosyasını Ekliyoruz -->
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Custom CSS Dosyasını Ekliyoruz -->
+  <link href="css/custom.css" rel="stylesheet">
+
+
+  <!-- Jquery  JS Dosyasını Ekliyoruz -->
+  <script src="jq/jquery-3.6.0.min.js"></script>
+
+  <!-- Bootstrap JS Dosyasını Ekliyoruz -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+
+  <!-- Sayfamızın Başlık Kısmını Ekliyoruz -->
+  <title>SEBAHAT TAN Kimdir ?</title>
+
+</head>
+
+<body>
+
+  <!-- Menü Çubuğu Gelecek -->
+  <header> <nav class="navbar fix-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <a class="cvNavbar-brand cvimage" href="index.html">
+      <img src="img/as.jpg" width="15%" >
+      </a>
+ 
+
+      <span class="d-none d-lg-block d-print-block cvImg-text text-primary"><strong>Sebahat TAN</strong>?</span>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item"><a class="nav-link" href="#">Anasayfa</a>
+          <li class="nav-item"><a class="nav-link" href="#">Hakkımda</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Dersler
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">HTML</a></li>
+              <li><a class="dropdown-item" href="#">CSS</a></li>
+              <li><a class="dropdown-item" href="#">Bootstrap</a></li>
+              <li><a class="dropdown-item" href="#">JQUERY</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Galeri</a>
+          <li class="nav-item"><a class="nav-link" href="#">İletişim</a>
+
+        </ul>
+
+        <ul class="navbar-nav d-flex justify-content-end mb-2 mb-lg-0">
+
+          <li class="nav-item"><a class="nav-link" href="#"><img src="img/lang/tr.png" class="cvLanguageImages"
+                alt="Türkçe"></a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><img src="img/lang/en.png" class="cvLanguageImages"
+                alt="İngilizce"></a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><img src="img/lang/arb.png" class="cvLanguageImages"
+                alt="Arapça"></a></li>
+
+          <li class="nav-item"><a class="nav-link" href="#">
+
+              <button type="button" class="btn btn-outline-primary btn-md" data-bs-toggle="modal"
+                data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+                <svg xmlns="bootstrap/img/login/giris.svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-person-bounding-box" viewBox="0 0 16 16">
+                  <path
+                    d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1h-3zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5zM.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5z">
+                  </path>
+                  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
+                </svg></button></a></li>
+
+        </ul>
+      </div>
+    </div>
+
+  </header>
+
+  <!-- Sayfa İçerik Kısmı  -->
+  <div class="container">
+    <!-- Sayfa İçerik Slider Kısmı Kısmı  -->
+    <div class="row">
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="img/slider/slider1.jpg" class="d-block w-100" alt="Resim1">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/slider/slider2.jpg" class="d-block w-100" alt="Resim1">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/slider/slider3.jpg" class="d-block w-100" alt="Resim1">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Geri</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">İleri</span>
+        </button>
+      </div>
+
+
+    </div>
+    <!-- Sayfa İçerik Slider Kısmı Kısmı Bitti  -->
+
+    <!-- Sayfa İçerik Etkinlikler, Duyurular, Görüşler Kısmı Gelecek  -->
+    <div class="row cvBilgilendirme">
+
+      <!-- Sayfa İçerik Etkinlikler Kısmı -->
+      <div class="col-md-4">
+        <div class="card border-info mb-3" style="width: 20rem;">
+          <div class="card-header">HTML</div>
+
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <div class="d-flex align-items-center">
+                <div class="flex-shrink-0">
+                  <img src="img/html.png"class="img-fluid rounded-start pt-3"width="17%" alt="...">
+                </div>
+              </div>
+            </li>
+
+         <li class="list-group-item"><button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                data-bs-target="#exampleModal2" data-bs-whatever="@mdo">HTML-RESİM EKLEME</button></a></li>
+            <li class="list-group-item"><button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                data-bs-target="#exampleModal3" data-bs-whatever="@mdo">HTML-FORM / LABEL EKLKEME</button></a></li>
+            <li class="list-group-item"><button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                data-bs-target="#exampleModal4">TABLE-ROWSPAN,COLSPAN</button></a></li>
+            <li class="list-group-item"><button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                data-bs-target="#exampleModal5" data-bs-whatever="@mdo">HTML- TABLE - LİSTE EKLEME</button> </a></li>
+            <li class="list-group-item"><button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                data-bs-target="#exampleModal6" data-bs-whatever="@mdo">TEXT-CHECKBOS-RADIO BUTTON-VIDEO-AUDIO
+                EKLEME</button></a></li>
+            <li class="list-group-item"><button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                data-bs-target="#exampleModal7" data-bs-whatever="@mdo">TEXT-CHECKBOS-RADIO BUTTON-VIDEO-AUDIO
+                EKLEME</button></a></li>
+
+
+          </ul>
+        </div>
+
+      </div>
+      <!-- Sayfa İçerik Etkinlikler Kısmı Bitti -->
+
+      <!-- Sayfa İçerik Duyurular Kısmı -->
+      <div class="col-md-4">
+        <div class="card border-info mb-3" style="width: 20rem;">
+          <div class="card-header">CSS</div>
+
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <div class="d-flex align-items-center">
+                <div class="flex-shrink-0">
+                  <img src="img/CSS.png" class="img-fluid rounded-start pt-3" width="5%" alt="...">
+                </div>
+              </div>
+            </li>
+
+
+             <li class="list-group-item"><button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                data-bs-target="#exampleModal9" data-bs-whatever="@mdo">BAĞLANTILI CSS YAPILARI</button></a></li>
+            <li class="list-group-item"><button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                data-bs-target="#exampleModal10" data-bs-whatever="@mdo">SATIRİÇİ CSS YAPILARI</button></a></li>
+            <li class="list-group-item"><button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                data-bs-target="#exampleModal11" data-bs-whatever="@mdo">PADDİNG VE FLOAT </button></a></li>
+            <li class="list-group-item"><button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                data-bs-target="#exampleModal12" data-bs-whatever="@mdo"> MARGIN KULLANIMI </button></a></li>
+
+          </ul>
+        </div>
+
+      </div>
+      <!-- Sayfa İçerik Duyurular Kısmı Bitti -->
+
+      <!-- Sayfa İçerik Görüşler Kısmı -->
+      <div class="col-md-4">
+
+        <div class="card border-info mb-3" style="width: 20rem;">
+          <div class="card-header">BOOTSTRAP</div>
+
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <div class="d-flex align-items-center">
+                <div class="flex-shrink-0">
+                  <img src="img/bootstrap.png" class="img-fluid rounded-start pt-3" width="12%" alt="...">
+                </div>
+  
+                </div>
+            </li>
+               <li class="list-group-item"><button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                data-bs-target="#exampleModal13" data-bs-whatever="@mdo">BUTTON EKLEME </button></a></li>
+            <li class="list-group-item"><button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                data-bs-target="#exampleModal14" data-bs-whatever="@mdo">SLİDER VE HEADER EKLEME </button></a></li>
+
+            <li class="list-group-item"><button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                data-bs-target="#exampleModal15" data-bs-whatever="@mdo">CARD&TABLE </button></a></li>
+
+            <li class="list-group-item"><button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                data-bs-target="#exampleModal16" data-bs-whatever="@mdo">FORMLAR </button></a></li>
+
+            <li class="list-group-item"><button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                data-bs-target="#exampleModal17" data-bs-whatever="@mdo">VALİDATİON </button></a></li>
+            <li class="list-group-item"><button type="button" class="btn btn-outline-success" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">OFFCANVAS </button></li>
+            <li class="list-group-item"><button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                data-bs-target="#exampleModal19" data-bs-whatever="@mdo">JAVASCRPIT </button></a></li>
+                <li class="list-group-item"><button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal24" data-bs-whatever="@mdo">CALLBACK </button></a></li>
+            <li class="list-group-item"><button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                data-bs-target="#exampleModal20" data-bs-whatever="@mdo">KDV HESAPLAMA </button></a></li>
+            <li class="list-group-item"><button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                data-bs-target="#exampleModal21" data-bs-whatever="@mdo">HESAP MAKİNESİ</button></a></li>
+          </ul>
+        </div>
+
+      </div>
+        <div class="col-md-4">
+
+        <div class="card border-info mb-3" style="width: 20rem;">
+          <div class="card-header">JQUERY</div>
+
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <div class="d-flex align-items-center">
+                <div class="flex-shrink-0">
+                  <img src="img/jquery.png"width="30%" alt=".">
+                </div>
+                
+              </div>
+            </li>
+            <li class="list-group-item"><button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                data-bs-target="#exampleModal22" data-bs-whatever="@mdo">HIDE SHOW ATTIRIBUTE </button></a></li>
+            <li class="list-group-item"><button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                data-bs-target="#exampleModal23" data-bs-whatever="@mdo">EVENTS </button></a></li>
+                    </ul>
+        </div>
+
+      </div>
+      <!-- Sayfa İçerik Görüşler Kısmı Bitti -->
+  
+    </div>
+
+    
+    <!-- Sayfa İçerik Etkinlikler, Duyurular, Görüşler Kısmı bitti  -->
+
+
+
+
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">HTML Dersleri</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+
+        <div class="input-group mb-3">
+          <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-12">
+              <label for="validationCustom01" class="form-label">Adınız</label>
+              <input type="text" class="form-control" id="validationCustom01" placeholder="Adınız" required>
+            </div>
+            <div class="col-md-12">
+              <label for="validationCustom02" class="form-label">Soyadınız</label>
+              <input type="text" class="form-control" id="validationCustom02" placeholder="Soyadınız" required>
+            </div>
+
+
+            <div class="col-md-12">
+              <label for="validationCustom03" class="form-label">Telefon</label>
+              <input type="text" class="form-control" id="validationCustom03" placeholder="GSM Bilgisi" required>
+            </div>
+
+            <div class="col-md-12">
+              <label for="validationCustom04" class="form-label">Mail Adresi</label>
+              <input type="text" class="form-control" id="validationCustom04" placeholder="name@example.com" required>
+            </div>
+
+
+            <div class="col-md-12">
+              <label for="validationCustom05" class="form-label">Açıklama</label>
+              <textarea class="form-control" id="validationCustom05" placeholder="Açıklama" required></textarea>
+            </div>
+
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  Bilgilerimin Doğrulunu Onaylıyorum.
+                </label>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <button class="btn btn-primary" type="submit">Kayıt Et</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <form class="row g-3">
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Panel Giriş Ekranı</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+              <div class="col-md-12">
+                <label for="validationCustomLogin01" class="form-label">Kullanıcı Adı</label>
+                <input type="text" class="form-control" id="validationCustomLogin01" placeholder="Kullanıcı Adı"
+                  required>
+              </div>
+              <div class="col-md-12">
+                <label for="validationCustomLogin02" class="form-label">Şifresi</label>
+                <input type="text" class="form-control" id="validationCustomLogin02" placeholder="Şifresi" required>
+                <p><a href="#" class="tooltip-test" data-bs-toggle="tooltip" data-bs-placement="top"
+                    title="Şifremi Unuttum Sayfasına Gidecektir.">Şifremi Unuttum</a></p>
+
+              </div>
+
+            </div>
+            <div class="modal-footer">
+
+
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                <label class="form-check-label" for="flexSwitchCheckDefault">Şifremi Hatırla</label>
+              </div>
+
+              <div id="liveAlertPlaceholder"></div>
+
+              <button type="submit" class="btn btn-primary" id="liveAlertBtn">Giriş</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl ">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">HTML-RESİM EKLEME</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe src="http://www.fbug7.com/SebahatTAN/cvWebS%C4%B0te/resimEkleme.html" width="1100" height="800"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Çıkış</button>
+              <button type="submit" class="btn btn-primary" id="liveAlertBtn">Gönder</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">HTML-FORM / LABEL EKLKEME</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+              <iframe src="http://www.fbug7.com/SebahatTAN/cvWebS%C4%B0te/form-labelElkleme.html" width="1100" height="800"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Çıkış</button>
+              <button type="submit" class="btn btn-primary" id="liveAlertBtn">Gönder</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">TABLE-ROWSPAN,COLSPAN</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe src="http://www.fbug7.com/SebahatTAN/cvWebS%C4%B0te/rowspan-colspanEkleme.html" width="1100" height="800" style="border:0;"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Çıkış</button>
+              <button type="submit" class="btn btn-primary" id="liveAlertBtn">Gönder</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">HTML- TABLE - LİSTE EKLEME</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe src="http://www.fbug7.com/SebahatTAN/cvWebS%C4%B0te/table-listeEkleme.html" width="1100" height="800" style="border:0;"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Çıkış</button>
+              <button type="submit" class="btn btn-primary" id="liveAlertBtn">Gönder</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">TEXT-CHECKBOS-RADIO BUTTON-VIDEO-AUDIO
+                EKLEME</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe src="http://www.fbug7.com/SebahatTAN/cvWebS%C4%B0te/checkbox-radio-button-video%20ekleme.html" width="1100" height="800" style="border:0;"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Çıkış</button>
+              <button type="submit" class="btn btn-primary" id="liveAlertBtn">Gönder</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">TEXT-CHECKBOS-RADIO BUTTON-VIDEO-AUDIO
+                EKLEME</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe src="http://www.fbug7.com/SebahatTAN/cvWebS%C4%B0te/checkbox-radio-button-video%20ekleme.html" width="1100" height="800"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Çıkış</button>
+              <button type="submit" class="btn btn-primary" id="liveAlertBtn">Gönder</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl ">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">BAĞLANTILI CSS YAPILARI</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe src="http://www.fbug7.com/SebahatTAN/cvWebS%C4%B0te/Baglantl%C4%B1-css-Yap%C4%B1lar%C4%B1.html" width="1100" height="800" style="border:0;"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Çıkış</button>
+              <button type="submit" class="btn btn-primary" id="liveAlertBtn">Gönder</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl ">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">SATIRİÇİ CSS YAPILARI</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe src="http://www.fbug7.com/SebahatTAN/cvWebS%C4%B0te/sat%C4%B1ri%C3%A7i-Css-Yap%C4%B1lar%C4%B1.html" width="1100" height="800"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Çıkış</button>
+              <button type="submit" class="btn btn-primary" id="liveAlertBtn">Gönder</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl ">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">PADDİNG VE FLOAT</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe src="http://www.fbug7.com/SebahatTAN/cvWebS%C4%B0te/padding%20ve%20float%20Kullan%C4%B1m%C4%B1.html" width="1100" height="800"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Çıkış</button>
+              <button type="submit" class="btn btn-primary" id="liveAlertBtn">Gönder</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl ">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">MARGIN KULLANIMI</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe src="http://www.fbug7.com/SebahatTAN/cvWebS%C4%B0te/marjinKullan%C4%B1m%C4%B1.html" width="1100" height="900"
+                style="border:5px;" allowfullscreen="" loading="lazy"
+                ></iframe>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Çıkış</button>
+              <button type="submit" class="btn btn-primary" id="liveAlertBtn">Gönder</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog  ">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">BUTTON EKLEME</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe src="http://www.fbug7.com/SebahatTAN/cvWebS%C4%B0te/buttonEkleme.html" 
+                allowfullscreen="" loading="lazy"
+                ></iframe>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Çıkış</button>
+              <button type="submit" class="btn btn-primary" id="liveAlertBtn">Gönder</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal14" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl ">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">SLİDER VE HEADER EKLEME</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe src="http://www.fbug7.com/SebahatTAN/cvWebS%C4%B0te/sliderVeHeaderEkleme.html" width="1100" height="900"
+                style="border:5px;" allowfullscreen="" loading="lazy"
+                ></iframe>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Çıkış</button>
+              <button type="submit" class="btn btn-primary" id="liveAlertBtn">Gönder</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal15" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl ">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">CARD&TABLE</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe src="http://www.fbug7.com/SebahatTAN/cvWebS%C4%B0te/card%26Table.html" width="1100" height="900"
+                style="border:5px;" allowfullscreen="" loading="lazy"
+                ></iframe>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Çıkış</button>
+              <button type="submit" class="btn btn-primary" id="liveAlertBtn">Gönder</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal16" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl ">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">FORMLAR</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe src="http://www.fbug7.com/SebahatTAN/cvWebS%C4%B0te/formlar.html" width="1100" height="900"
+                style="border:5px;" allowfullscreen="" loading="lazy"
+                ></iframe>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Çıkış</button>
+              <button type="submit" class="btn btn-primary" id="liveAlertBtn">Gönder</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal17" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl ">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">VALİDATİON</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe src="http://www.fbug7.com/SebahatTAN/cvWebS%C4%B0te/validation.html" width="1100" height="900"
+                style="border:5px;" allowfullscreen="" loading="lazy"
+                ></iframe>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Çıkış</button>
+              <button type="submit" class="btn btn-primary" id="liveAlertBtn">Gönder</button>
+            </div>
+          </div>
+        </div>
+      </div>
+<div class="modal fade" id="exampleModal17" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl ">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">OFFCANVAS</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe src="http://www.fbug7.com/SebahatTAN/cvWebS%C4%B0te/offcanvans.html" width="1100" height="900"
+                style="border:5px;" allowfullscreen="" loading="lazy"
+                ></iframe>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Çıkış</button>
+              <button type="submit" class="btn btn-primary" id="liveAlertBtn">Gönder</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal19" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl ">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">JAVASCRPIT</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe src="http://www.fbug7.com/SebahatTAN/cvWebS%C4%B0te/javascript.html" width="1100" height="900"
+                style="border:5px;" allowfullscreen="" loading="lazy"
+                ></iframe>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Çıkış</button>
+              <button type="submit" class="btn btn-primary" id="liveAlertBtn">Gönder</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal20" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl ">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">KDV HESAPLAMA</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe src="http://www.fbug7.com/SebahatTAN/cvWebS%C4%B0te/KDVhesapla.html" width="1100" height="900"
+                style="border:5px;" allowfullscreen="" loading="lazy"
+                ></iframe>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Çıkış</button>
+              <button type="submit" class="btn btn-primary" id="liveAlertBtn">Gönder</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal21" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl ">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">HESAP MAKİNESİ</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe src="http://www.fbug7.com/SebahatTAN/cvWebS%C4%B0te/hesapMakinesi1.html" width="1100" height="900"
+                style="border:5px;" allowfullscreen="" loading="lazy"
+                ></iframe>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Çıkış</button>
+              <button type="submit" class="btn btn-primary" id="liveAlertBtn">Gönder</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal22" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl ">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">HIDE SHOW ATTIRIBUTE</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe src="http://www.fbug7.com/SebahatTAN/cvWebS%C4%B0te/JQUERY.html" width="1100" height="900"
+                style="border:5px;" allowfullscreen="" loading="lazy"
+                ></iframe>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Çıkış</button>
+              <button type="submit" class="btn btn-primary" id="liveAlertBtn">Gönder</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal23" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl ">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">EVENTS</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe src="http://www.fbug7.com/SebahatTAN/cvWebS%C4%B0te/JQUERY2.HTML" width="1100" height="900"
+                style="border:5px;" allowfullscreen="" loading="lazy"
+                ></iframe>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Çıkış</button>
+              <button type="submit" class="btn btn-primary" id="liveAlertBtn">Gönder</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal24" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl ">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">CALLBACK</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe src="http://www.fbug7.com/SebahatTAN/cvWebS%C4%B0te/callback.html" width="1100" height="900"
+                style="border:5px;" allowfullscreen="" loading="lazy"
+                ></iframe>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Çıkış</button>
+              <button type="submit" class="btn btn-primary" id="liveAlertBtn">Gönder</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+  </div>
+  <!-- Sayfa İçerik Kısmı Bitti -->
+
+  <!-- Sayfa Footer Kısmı Başlangıç -->
+  <footer class="bd-footer py-5 mt-5 bg-light">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-3 mb-3">
+          <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/"
+            aria-label="Bootstrap">
+            <span class="fs-5">Sebahat TAN</span>
+          </a>
+          <ul class="list-unstyled small text-muted">
+            <li class="mb-2">Engineer</li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+          <h5>Links</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="/">Home</a></li>
+            <li class="mb-2"><a href="/docs/5.1/">Docs</a></li>
+            <li class="mb-2"><a href="/docs/5.1/examples/">Examples</a></li>
+            <li class="mb-2"><a href="https://themes.getbootstrap.com/">Themes</a></li>
+            <li class="mb-2"><a href="https://blog.getbootstrap.com/">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 mb-3">
+          <h5>Guides</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="/docs/5.1/getting-started/">Getting started</a></li>
+            <li class="mb-2"><a href="/docs/5.1/examples/starter-template/">Starter template</a></li>
+            <li class="mb-2"><a href="/docs/5.1/getting-started/webpack/">Webpack</a></li>
+            <li class="mb-2"><a href="/docs/5.1/getting-started/parcel/">Parcel</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 mb-3">
+          <h5>Projects</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="https://github.com/twbs/bootstrap">Bootstrap 5</a></li>
+            <li class="mb-2"><a href="https://github.com/twbs/bootstrap/tree/v4-dev">Bootstrap 4</a></li>
+            <li class="mb-2"><a href="https://github.com/twbs/icons">Icons</a></li>
+            <li class="mb-2"><a href="https://github.com/twbs/rfs">RFS</a></li>
+            <li class="mb-2"><a href="https://github.com/twbs/bootstrap-npm-starter">npm starter</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 mb-3">
+          <h5>Community</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="https://github.com/twbs/bootstrap/issues">Issues</a></li>
+            <li class="mb-2"><a href="https://github.com/twbs/bootstrap/discussions">Discussions</a></li>
+            <li class="mb-2"><a href="https://github.com/sponsors/twbs">Corporate sponsors</a></li>
+            <li class="mb-2"><a href="https://opencollective.com/bootstrap">Open Collective</a></li>
+            <li class="mb-2"><a href="https://bootstrap-slack.herokuapp.com/">Slack</a></li>
+            <li class="mb-2"><a href="https://stackoverflow.com/questions/tagged/bootstrap-5">Stack Overflow</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Sayfa Footer Kısmı Bitti -->
+
+ <script>
+    (function () {
+      'use strict'
+
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.querySelectorAll('.needs-validation')
+
+      // Loop over them and prevent submission
+      Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+          form.addEventListener('submit', function (event) {
+            if (!form.checkValidity()) {
+              event.preventDefault()
+              event.stopPropagation()
+            }
+
+            form.classList.add('was-validated')
+          }, false)
+        })
+    })()
+  </script>
+
+
+
+
+  <script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+  </script>
+
+  <script>
+    var alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+    var alertTrigger = document.getElementById('liveAlertBtn')
+
+    function alert(message, type) {
+      var wrapper = document.createElement('div')
+      wrapper.innerHTML = '<div class="alert alert-' + type + ' alert-dismissible" role="alert">' + message + '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>'
+
+      alertPlaceholder.append(wrapper)
+    }
+
+    if (alertTrigger) {
+      alertTrigger.addEventListener('click', function () {
+        alert('Nice, you triggered this alert message!', 'success')
+      })
+    }
+  </script>
+
+   
+  </body>
+</html>
